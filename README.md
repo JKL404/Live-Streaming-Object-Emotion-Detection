@@ -1,4 +1,4 @@
-# Detect an object with OpenCV-Python and FastAPI
+# Live Streaming Object Detection with OpenCV-Python and FastAPI
 
 ## _JKL404_
 
