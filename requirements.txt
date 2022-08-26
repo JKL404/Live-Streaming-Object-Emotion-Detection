@@ -1,0 +1,7 @@
+fastapi
+matplotlib
+numpy
+opencv-python-headless
+python-dateutil
+streamlit
+uvicorn
