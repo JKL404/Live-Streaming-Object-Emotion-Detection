@@ -16,17 +16,26 @@
       crossorigin="anonymous"
     />
 
-    <title>Live Streaming Object Detection</title>
+    <title>
+      Live Streaming {% if dtype == "object" %} Object {% else %} Emotion {%
+      endif %} Detection
+    </title>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <h3 class="mt-5">Live Streaming Object Detection</h3>
+          <h6 style="padding-top: 2em; padding-buttom: -1em">
+            <a href="/">Back to Homepage</a>
+          </h6>
+          <h3 class="mt-5">
+            Live Streaming {% if dtype == "object" %} Object {% else %} Emotion
+            {% endif %} Detection
+          </h3>
           {% if dtype == "object" %}
           <img src="{{ url_for('video_feed') }}" width="100%" />
           {% else %}
-          <img src="{{ url_for('video_feed') }}" width="100%" />
+          <img src="{{ url_for('video_feed_emotion') }}" width="100%" />
           {% endif %}
         </div>
       </div>

@@ -1,10 +1,13 @@
-# Live Streaming Object Detection with OpenCV-Python and FastAPI
+# Live Streaming Object/Emotion Detection with OpenCV-Python, Tensorflow and FastAPI
 
 ## _JKL404_
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 OpenCV is the huge open-source library for computer vision, machine learning, and image processing and now it plays a major role in real-time operation which is very important in today’s systems. By using it, one can process images and videos to identify objects, faces, or even the handwriting of a human. This Project focuses on detecting objects.
+
+TensorFlow is a free and open-source software library for machine learning and artificial intelligence. It can be used across a range of tasks but has a particular focus on training and inference of deep neural networks.
+
 ![Object Detection](https://neilyongyangnie.files.wordpress.com/2018/11/0_hmacefect2pyqoxf.jpg)
 
 ## Features
